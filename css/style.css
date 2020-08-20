@@ -1,0 +1,187 @@
+body {
+	font-family: "Open sans", sans-serif;	
+	/*background-color: #2445A8;*/
+	background: radial-gradient( #2445A8, #191970);
+}
+
+header {
+	background: radial-gradient(darkblue, #191970);
+	border-bottom: 2px solid orange;
+	width: 100%;
+}
+
+.logo-omni {
+	width: 200px;
+	height: 100px;
+	margin: 30px 50px;
+	/*display: inline;*/
+}
+
+.foto-titulo {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 45px;
+	right: 430px;
+}
+
+h1 {
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	top: 65px;
+	right: 50px;
+}
+
+.titulo-formulario {
+	color: orange;
+	font-size: 1.3em;
+	background: radial-gradient(darkblue, #191970);
+	border: 1px solid darkblue;
+	border-bottom: 1px solid orange;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	padding: 15px 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+form {
+	width: 700px; 
+	margin: 40px auto;
+	/*text-align: center;	*/
+	border: 1px solid darkblue;
+	border-radius: 40px;
+}
+
+::-webkit-input-placeholder {
+   color: lightgray;
+}
+
+.parte-cpf {
+	/*border-bottom: 1px solid #191970;*/
+	margin: 10px;
+}
+
+.parte-data {
+	/*border-bottom: 1px solid #191970;*/
+	margin: 10px;
+}
+
+.parte-contrato {
+	/*border-bottom: 1px solid #191970;*/
+	margin: 10px;
+}
+
+label {
+	color: white;
+	font-size: 1.2em;
+	width: 100px;
+}
+
+.label-token {
+	color: white;
+	font-size: 1.2em;
+	width: 100px;
+	padding-left: 30px;
+}
+
+input {
+	display: inline-block;
+	margin: 15px auto 10px auto;
+	width: 350px;
+	height: 25px;
+	font-size: 1em;
+	text-align: center;
+	background-color: #0000FF;
+	color: white;
+	border: 1.5px solid darkorange;
+}
+
+input, label {
+	margin-left: 55px
+}
+
+.input-1 {
+	margin: 15px 0 10px 143px;
+}
+
+.input-2 {
+	margin: 15px 15px 10px 10px;
+}
+
+.input-3 {
+	margin: 15px 0 10px 106px;
+}
+
+.entrar {
+	display: inline-block;
+	background-color: darkorange;
+	color: white;
+	width: 150px;
+	margin: 25px 30px 25px 50px;
+	height: 30px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 0 0;
+}
+
+.entrar:hover {
+	box-shadow: 0 0 5px darkorange;
+}
+
+.sair {
+	background-color: darkblue;
+	color: white;
+	width: 150px;
+	margin: 25px 40px 25px 150px;
+	height: 30px;
+	display: inline-block;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 0 0;
+}
+
+.sair:hover {
+	box-shadow: 0 0 5px darkblue;
+}
+
+form p {
+	background: radial-gradient(darkblue, #191970);
+	color: orange;
+	font-size: 1em;
+	border: 1px solid darkblue;
+	border-top: 1px solid orange;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+			/*PÁGINA DE ENVIO DE TOKEN*/
+
+.parte-token {
+	border-bottom: 1px solid darkblue;
+	margin: 10px ;
+}
+
+.enviar-token {
+	display: block;
+	background-color: darkorange;
+	color: white;
+	width: 350px;
+	margin: 25px auto 10px auto;
+	height: 40px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.enviar-token:hover {
+	box-shadow: 0 0 10px darkorange;
+}

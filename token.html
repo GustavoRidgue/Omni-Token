@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Omni Token Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
+	<meta name="author" content="Gustavo Ridgue"> 
+	<meta name="keywords" content="Token, omni">
+	<meta name="description" content="Página de envio de Token">
+	<title>Omni Token</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="js/token.js"></script>
+</head>
+<body>
+	<header>
+		<img class="logo-omni" src="https://www.bizfacil.com.br/imagens/logo_omni_fundo_azul.png" alt="Logo da Omni">
+
+		<img class="foto-titulo" src="https://images.vexels.com/media/users/3/137049/isolated/preview/55645fc5ccb4dbf9e2fb656ddecba730---cone-de-pessoa-usu--rio-laranja-by-vexels.png" alt="">
+		<h1>Financiamento de Veículo</h1>
+
+	</header>
+
+	<article>
+		<form name="enviartoken" method="post">
+			<h2 class="titulo-formulario">Informe o token para entrar no sistema:</h2>
+			
+			<fieldset class="parte-token">
+				<label class="label-token" for="token">Token:</label> 
+				<input type="number" name="token"	id="token" class="input-padrao">
+			</fieldset>
+
+			<input type="submit" name="enviar" value="Enviar Token"	class="enviar-token" onclick="return validar()">
+			<a href="login.html">
+				<input value="Sair" value="Sair" class="sair">
+			</a>
+			<input type="submit" name="entrar" value="Entrar" class="entrar" onclick="return validar()">
+
+			<p>&copy Omni Soluções Financeiras ⚬ Todos os direitos reservados</p>
+		</form>
+	</article>
+</body>
+</html>
